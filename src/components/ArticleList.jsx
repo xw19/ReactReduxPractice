@@ -1,4 +1,5 @@
 import React from 'react'
+import Article from './Article'
 
 
 class ArticleList extends React.Component {
@@ -8,9 +9,7 @@ class ArticleList extends React.Component {
       <div>
         <h2>All Articles</h2>
         { this.props.articles.map( (article) => {
-          return(<p onClick={ e => {
-            this.props.onTodoClick(article.id)
-          }} key={article.id}>{article.title}</p>)
+          return(<Article article={article} clickToRemove={this.props.onTodoClick} toggleDone={this.props.toggleChange} key={article.id}/>)
         }) }
       </div>
     )

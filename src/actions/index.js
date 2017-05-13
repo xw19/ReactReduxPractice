@@ -7,3 +7,8 @@ export const removeArticle = (id) => ({
   type: 'REMOVE_ARTICLE',
   id: id
 })
+
+export const toggleChange = (id) => ({
+  type: 'TOGGLE_CHANGE',
+  id: id
+})

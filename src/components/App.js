@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NavbarTop from './NavbarTop'
 import Articles from './Articles'
 import AddArticle from './AddArticle'
-import './App.scss';
+import './App.css';
 
 class App extends Component {
   render() {
