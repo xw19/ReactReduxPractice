@@ -12,3 +12,8 @@ export const toggleChange = (id) => ({
   type: 'TOGGLE_CHANGE',
   id: id
 })
+
+export const setVisibilityFilter = (filter) => ({
+  type: 'SET_FILTER',
+  filter: filter
+})

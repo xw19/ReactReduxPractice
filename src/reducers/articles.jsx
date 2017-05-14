@@ -1,5 +1,8 @@
 const initialstate = [
-  {title: "hello", id: 0, completed: true}, {title: "world",  id: 1, completed: false}, {title: "hello1",  id: 2, completed: true}, {title: "hello2",  id: 3, completed: false}
+  {title: "hello", id: 0, completed: true},
+  {title: "world",  id: 1, completed: false},
+  {title: "hello1",  id: 2, completed: true},
+  {title: "hello2",  id: 3, completed: false}
 ]
 
 

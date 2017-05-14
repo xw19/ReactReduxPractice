@@ -1,8 +1,9 @@
 import { combineReducers } from 'redux'
 import articles from './articles'
+import visibiltyFilter from './visibiltyFilter'
 
 const articleApp = combineReducers({
-  articles,
+  articles, visibiltyFilter
 })
 
 export default articleApp

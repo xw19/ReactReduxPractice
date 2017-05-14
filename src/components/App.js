@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavbarTop from './NavbarTop'
 import Articles from './Articles'
 import AddArticle from './AddArticle'
+import Footer from './Footer'
 import './App.css';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
         <NavbarTop />
         <AddArticle />
         <Articles />
+        <Footer />
       </div>
     );
   }
